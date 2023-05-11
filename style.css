@@ -25,7 +25,7 @@
     box-shadow: -5px -5px 15px rgb(255, 255, 255, 0.1),
     5px 5px 15px rgb(0, 0, 0, 0.35),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-    inset 5px 5px 15px rgba(13, 13, 13, 0.1)
+    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -35,6 +35,11 @@
     align-items: center;
     flex-direction: column;
     gap: 25px;
+}
+
+
+.container .form.signin {
+   display: none; 
 }
 
 
@@ -116,4 +121,26 @@
     padding: 10px 0;
     font-weight: 500;
     cursor: pointer;
+    box-shadow: -5px -5px 15px rgb(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
 }
+
+
+.container .form p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+
+.container .form p a {
+    font-weight: 500;
+    color: white;
+
+}
+
+
+
+/* ****************************************** */
